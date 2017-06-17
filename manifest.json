@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Quora Nightmode",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/mallelapavank/quoranightmode",
+  "description": "Read your answers by Quora dimming the light right away on your browser.",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "19": "icons/icon-19.png",
+    "38": "icons/icon-38.png"
+  },
+  "default_title": "Toggle on off"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
