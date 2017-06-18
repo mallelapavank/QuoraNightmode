@@ -1,15 +1,15 @@
 var CSS='body{background: black; color: white;}div[class="_type_serif_title_medium pass_color_to_child_links"]{color:#df7272;}'
-var enable=true;
+var enable = true;
 //method to enable nightmode
 function enableNightMode() {
 	browser.tabs.insertCSS({code: CSS});
-	enable=false;
+	enable = false;
 }
 
 //method to disable nightmode
 function disableNightMode(){
 	browser.tabs.removeCSS({code: CSS});
-	enable=true;
+	enable = true;
 }
 
 //method to toggle mode
