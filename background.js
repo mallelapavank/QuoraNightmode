@@ -1,4 +1,4 @@
-var CSS='body{background: black; color: white;}div[class="_type_serif_title_medium pass_color_to_child_links"]{color:#df7272;}'
+var CSS='body{background: black; color: #ffffff;}div[class="_type_serif_title_medium pass_color_to_child_links"]{color:#df7272;}'
 var enable = true;
 //method to enable nightmode
 function enableNightMode() {
