@@ -5,4 +5,4 @@ A Firefox browser web extension to darken Quora website
 - Open quora.com
 - Click the little Q icon in the top right corner
 - It should change Quora to nightmode
-- Refresh the page to reset original layout
+- Click again to toggle to original layout
