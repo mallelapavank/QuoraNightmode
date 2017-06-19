@@ -1,4 +1,4 @@
-# iQuora Nightmode
+# Quora Nightmode
 A Firefox browser web extension to darken Quora website
 
 - Install the extension
